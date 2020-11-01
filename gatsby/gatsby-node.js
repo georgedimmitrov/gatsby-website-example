@@ -84,7 +84,6 @@ async function fetchBeersAndTurnIntoNodes({
       ...nodeMeta,
     });
   }
-  console.log(beers);
 }
 
 async function turnSlicemastersIntoPages({ graphql, actions }) {
